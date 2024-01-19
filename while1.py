@@ -1,0 +1,11 @@
+a="helloworld"
+i=0
+out=" "
+while i<len(a):
+    if 'a'==a[i]<='2':
+        out+=chr(ord(a[i])-32)
+    else:
+        out+=a[i]
+
+    i+=1
+ print(out)

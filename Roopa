@@ -1,0 +1,5 @@
+char=input('enter a charecter')
+if char in '012345678':
+    print('digit')
+else:
+    print('not a digit')
