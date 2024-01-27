@@ -1,0 +1,5 @@
+import re
+data=re.findall('[0-9]+', 'ab8cd123ef12gh4524')
+#data=re.findall('[0-9]\d{2}','abcdef675$gh67')
+#data=re.findall('[0-9]{1,3}','abcdef675$gh678')
+print(data)
